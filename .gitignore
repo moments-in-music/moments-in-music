@@ -1,0 +1,36 @@
+# Nuxt / Node
+node_modules
+.nuxt
+.nitro
+.cache
+.output
+dist
+.data
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode
+.idea
+.DS_Store
+*.swp
+
+# Local data / scrapes
+/scripts/output
+/scripts/cache
+*.csv
+*.bson
+
+# TypeScript build
+*.tsbuildinfo
